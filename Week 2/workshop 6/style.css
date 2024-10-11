@@ -1,0 +1,36 @@
+body {
+    --background_start: rgb(255,100,255);
+    --background_end: rgb(1, 155, 111);
+}
+
+
+
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: var(--background_start);
+  /*background-color: var(--background_start);*/
+  animation-name: example;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  border: 2px solid var(--background_end);
+  border-radius: 5px;
+}
+
+
+@keyframes example {
+  from {
+    background-color: var(--background_start);
+    border: 2px solid var(--background_end);
+    border-radius: 5px;
+  }
+
+  to {
+    background-color:var(--background_end);
+    border: 2px solid var(--background_start);
+    border-radius: 100px;
+  }
+}

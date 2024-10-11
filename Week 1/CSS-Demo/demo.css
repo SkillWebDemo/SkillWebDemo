@@ -1,0 +1,17 @@
+header {
+    background-color: bisque;
+}
+
+#unikt {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.blog-post{
+    padding: auto;
+    margin: auto;
+}
+
+.blog-post-header {
+    background-color: cadetblue;
+}
