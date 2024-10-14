@@ -48,7 +48,7 @@ h1, h2 {
 .grid-dashboard {
     display: grid;
     grid-template-areas:
-        "header header"
+        "headernav header"
         "sidebar main"
         "footer footer";
     grid-template-columns: 200px 1fr;
@@ -58,9 +58,14 @@ h1, h2 {
     margin-bottom: 30px;
 }
 
+
 .dashboard-header {
     grid-area: header;
     background-color: #e74c3c;
+}
+.dashboard-headernav {
+    grid-area: headernav;
+    background-color: #f0e1df;
 }
 
 .dashboard-sidebar {
@@ -92,7 +97,7 @@ h1, h2 {
 }
 
 .card {
-    flex: 0 1 calc(33.333% - 20px);
+    flex: 0 1 calc(25vw - 20px);
     background-color: #1abc9c;
     color: white;
     padding: 20px;
